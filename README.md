@@ -15,6 +15,7 @@ The "API PetClinic" serves as a local API developed in Node.js for managing data
 
 ## Technologies Used
 
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1C?style=flat-square&logo=javascript&logoColor=white) JavaScript - The programming language used for API development.
 - ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) Node.js - The runtime environment used for API development.
 - ![Prisma](https://img.shields.io/badge/-Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white) Prisma - The ORM used for interacting with the MySQL database.
 - ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) MySQL - Database management system used for storing clinic data.
