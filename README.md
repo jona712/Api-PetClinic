@@ -1,15 +1,18 @@
 # API PetClinic
 
-Local API. 
+Local API.
 
 ## Description
 
-The "API PetClinic" serves as a local API developed in Node.js for managing data related to a veterinary clinic. It uses Prisma for database management with MySQL, allowing for efficient CRUD operations on clinic data. The API follows a modular architecture with clear separation of concerns, enabling smooth interaction between models, controllers, and services.
+The "API PetClinic" serves as a local API developed in Node.js for managing data related to a veterinary clinic. It uses Prisma for database management with MySQL, allowing for efficient CRUD operations on clinic data. The API follows a modular architecture with clear separation of concerns, enabling smooth interaction between models, controllers, and services. It also supports managing images and files on the server, which can be uploaded from the frontend.
 
 ### Key Components:
 
 - **Models**: Represent the data structures used in the application. They interact with the MySQL database to perform CRUD operations and manage data retrieval and manipulation using Prisma ORM.
 - **Controllers**: Handle incoming requests, process data, and interact with the models to perform operations. They contain the business logic and control the flow of data.
+- **Routes**: Define the endpoints for the API and map them to the appropriate controllers.
+- **Middleware**: Used for handling requests and responses, including tasks such as authentication, logging, and error handling.
+- **Assets**: Manage static files such as images and other resources, which are uploaded and stored on the server.
 - **Scheduled Tasks**: Implemented using Node Cron to handle periodic tasks such as sending appointment reminders.
 - **Email Notifications**: Managed with Nodemailer to send automatic email reminders for upcoming appointments.
 
