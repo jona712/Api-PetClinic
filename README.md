@@ -4,7 +4,7 @@ Local API.
 
 ## Description
 
-The "API PetClinic" serves as a local API developed in Node.js for managing data related to a veterinary clinic. It uses Prisma for database management with MySQL, allowing for efficient CRUD operations on clinic data. The API follows a modular architecture with clear separation of concerns, enabling smooth interaction between models, controllers, and services. It also supports managing images and files on the server, which can be uploaded from the frontend.
+The PetClinic API serves as a local API developed in Node.js for managing data related to a veterinary clinic. It uses Prisma for database management with MySQL, allowing efficient CRUD operations on the clinic's data. The API follows a modular architecture with a clear separation of concerns, allowing seamless interaction between models, controllers and services. It also supports image and file management on the server, which can be uploaded from the frontend.
 
 ## Technologies Used
 
